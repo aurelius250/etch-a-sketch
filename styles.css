@@ -1,0 +1,12 @@
+#gridContainer { 
+    display:flex; 
+    flex-direction: column;
+}
+
+.gridRowContainer { 
+    display:flex; 
+}
+.squareInGrid { 
+padding: 20px; 
+border: solid black 2px;
+}
