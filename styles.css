@@ -1,12 +1,22 @@
+* { 
+    box-sizing: border-box;
+}
+
 #gridContainer { 
     display:flex; 
+    max-width: 960px;
+    padding: 5px;
     flex-direction: column;
 }
 
+#gridSizeButton { 
+    padding: 30px; 
+
+}
 .gridRowContainer { 
     display:flex; 
+    max-width: 960px;
 }
 .squareInGrid { 
-padding: 20px; 
 border: solid black 2px;
 }
