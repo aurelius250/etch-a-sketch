@@ -4,15 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Etch-a-Sketch</title>
     <script src="etch.js" defer></script>
     <link rel="stylesheet" href="styles.css"> 
 
 </head>
 <body>
-    <button id = "gridSizeButton"> Press here to input dimensions and reset</button>
-    <div id="gridContainer"> 
-        
+    <div class = "headerContainer"> 
+        <h1 class="title"> Etch a Sketch</h1>
+
     </div>
+
+    <div class = "description"> 
+        <p> This project is an exercise from The Odin Project's Foundations course. You may press the button below the canvas to adjust the grid size or reset. Default is 50x50. </p>
+    </div>
+
+    
+    
+    <div id = "outerGridContainer"> 
+    
+        <h2 class = "etchHeader"> Etch a Sketch</h2>
+        <div id="gridContainer"> 
+        </div>
+        <div class = "buttonContainer"> 
+            <button id = "gridSizeButton"> Press here to input dimensions and reset</button>
+        </div>
+    </div>
+
 </body>
 </html>
